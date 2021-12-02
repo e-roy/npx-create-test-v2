@@ -1,6 +1,6 @@
 {
   "name": "npx-create-test-v2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "scripts": {
     "start": "node ./index.js",
@@ -11,7 +11,6 @@
   "bin": {
     "npx-create-test-v2": "./index.js"
   },
-  "type": "module",
   "devDependencies": {
     "@types/cross-spawn": "^6.0.2",
     "@types/node": "^12.6.8",
