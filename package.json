@@ -1,6 +1,6 @@
 {
   "name": "npx-create-test-v2",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "scripts": {
     "start": "node ./index.js",
@@ -18,6 +18,6 @@
     "prompts": "2.1.0"
   },
   "engines": {
-    "node": ">=12.22.0"
+    "node": ">=14"
   }
 }
