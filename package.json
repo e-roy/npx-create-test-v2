@@ -1,6 +1,6 @@
 {
   "name": "npx-create-test-v2",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "scripts": {
     "start": "node ./index.js",
@@ -15,6 +15,7 @@
     "chalk": "2.4.2",
     "commander": "^8.3.0",
     "cpy": "^8.1.2",
+    "cross-spawn": "^7.0.3",
     "prompts": "^2.4.2",
     "validate-npm-package-name": "^3.0.0"
   },
