@@ -117,6 +117,13 @@ const init = async ({ appPath, useNpm, typescript }) => {
   await cpy("**", root, {
     parents: true,
     cwd: path.join(__dirname, "templates", template),
+    filter: (name) => {
+      // console.log('file name : ', name);
+      if (name.relativePath === "package.json") {
+        return false;
+      }
+      return true;
+    },
     rename: (name) => {
       switch (name) {
         case "gitignore":

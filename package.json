@@ -1,25 +1,17 @@
 {
-  "name": "npx-create-test-v2",
-  "version": "1.0.12",
-  "description": "",
+  "name": "root",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node ./index.js"
+    "dev": "yarn workspace @create-dao/next-app dev",
+    "start": "yarn workspace npx-create-test-v2 start",
+    "publish-stable": "lerna version --force-publish --no-private"
   },
-  "author": "",
-  "license": "MIT",
-  "bin": {
-    "npx-create-test-v2": "./index.js"
+  "devDependencies": {
+    "lerna": "^4.0.0"
   },
-  "dependencies": {
-    "chalk": "2.4.2",
-    "commander": "^8.3.0",
-    "cpy": "^8.1.2",
-    "cross-spawn": "^7.0.3",
-    "prompts": "^2.4.2",
-    "rimraf": "^3.0.2",
-    "validate-npm-package-name": "^3.0.0"
-  },
-  "engines": {
-    "node": ">=14"
-  }
+  "workspaces": [
+    "packages/*",
+    "packages/next-test-v2/templates/*"
+  ]
 }
