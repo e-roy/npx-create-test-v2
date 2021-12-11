@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "yarn workspace @create-dao/next-app dev",
     "start": "yarn workspace npx-create-test-v2 start",
-    "publish-stable": "lerna version --force-publish --no-private"
+    "update-version": "lerna version --force-publish --no-private",
+    "publish-latest": "leran publish from-package"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
