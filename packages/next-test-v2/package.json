@@ -1,6 +1,6 @@
 {
   "name": "npx-create-test-v2",
-  "version": "0.0.1",
+  "version": "1.0.16",
   "description": "",
   "scripts": {
     "start": "node ./index.js"
